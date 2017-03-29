@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+}
+
+
+
+body {
+	margin: 0px;
+}
+
+nav {
+	width: 100%;
+	position: relative;
+	background-color: grey;
+	height: 65px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px 100px;
+	margin: 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+	transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+nav ul li a:hover {
+	opacity: .65;
+	color: red;
+}
+
+button {
+	border-radius: 10px;
+	zoom: 60%;
+	background-color: #1784FB;
+	border-style: none;
+}
